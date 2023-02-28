@@ -109,7 +109,7 @@ void DrawFilledPolygon(GLint posX, GLint posY, int numSides, GLint scale)
 void init()
 {
     glutSetWindowTitle("Computer Graphics Assign 1 : Tilly Dewing");
-    // Set the background color to white
+    // Set the background color
     glClearColor(0.5, 0.5, 0.55, 0.0);
 
     // Set the orthographic projection matrix with the specified left, right, bottom, and top values
